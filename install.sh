@@ -1,1 +1,1 @@
-gcc -fPIC -shared assert.c -o ./assert.so
+gcc -DDEBUG -fPIC -shared assert.c -o ./assert.so

@@ -1,4 +1,4 @@
-gcc -fPIC -shared -o ./assert.so assert.c
+gcc -DDEBUG -fPIC -shared -o ./assert.so assert.c
 
 myLib="./assert.so"
 
